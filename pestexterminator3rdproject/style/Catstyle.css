@@ -1,0 +1,27 @@
+﻿.mytable {
+    border-style: double;
+    border-color: darkblue;
+    border-width: 12px;
+    background: url(pest-exterminator2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+.myheader {
+    padding: 5px;
+    font-family: Verdana;
+    font-size: 104px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+.myitem {
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    font-family: Verdana;
+    font-size: 44px;
+}

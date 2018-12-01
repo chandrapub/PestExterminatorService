@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="pestexterminator3rdproject.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Pest Service and Control</title>
+    <link href="style/Catstyle.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+    <style>
+     body {
+			background: url(pest-exterminator1.jpg) no-repeat center center;
+			background-size: cover;
+
+		}
+    </style>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
